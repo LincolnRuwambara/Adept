@@ -4,42 +4,37 @@ import CardItem from './CardItem';
 
 function Cards() {
   return (
-    <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
+    <div className="cards">
+      <h1>Check out these EPIC Deals!</h1>
+      <div className="cards__container">
+        <div className="cards__wrapper">
+          <ul className="cards__items">
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              src="images/img-9.jpg"
+              text="Information about  machinery and equiipment"
+              label="Matchinery"
+              path="/services"
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              src="images/img-2.jpg"
+              text="Information about materials that asre offered"
+              label="Materials"
+              path="/services"
             />
           </ul>
-          <ul className='cards__items'>
+          <ul className="cards__items">
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              src="images/img-3.jpg"
+              text="Offers renovations and info about renovating"
+              label="Renovations"
+              path="/services"
             />
+
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
-            />
-            <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              src="images/img-8.jpg"
+              text=" Information to be entered"
+              label="Renovation"
+              path="/sign-up"
             />
           </ul>
         </div>
